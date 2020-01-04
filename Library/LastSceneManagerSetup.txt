@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Game/Scripts/Helpers/Test/Scenes/SaveLoadIndicator.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
