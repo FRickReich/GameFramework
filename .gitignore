@@ -3,5 +3,6 @@
 .vscode
 /Temp
 */*Cache
+*.cache
 */metadata
 *.log
