@@ -115,8 +115,6 @@
      <Compile Include="Assets\Game\Scripts\Modules\SaveGame\Scripts\SaveSystem.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\SaveGame\Test\Movement.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\SaveGame\Test\SaveGameTester.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\UI\Scripts\LoadingScreen.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\UI\Test\LoadingScreenTester.cs" />
      <Compile Include="Assets\Game\Scripts\States\Game\GamePauseState.cs" />
      <Compile Include="Assets\Game\Scripts\States\Game\GamePrepareState.cs" />
      <Compile Include="Assets\Game\Scripts\States\Game\GameRunningState.cs" />
@@ -128,6 +126,8 @@
      <Compile Include="Assets\Game\Scripts\States\SaveLoad\SaveLoadIdleState.cs" />
      <Compile Include="Assets\Game\Scripts\States\SaveLoad\SaveLoadLoadingState.cs" />
      <Compile Include="Assets\Game\Scripts\States\SaveLoad\SaveLoadSavingState.cs" />
+     <Compile Include="Assets\Game\Scripts\UI\Scripts\LoadingScreen.cs" />
+     <Compile Include="Assets\Game\Scripts\UI\Test\LoadingScreenTester.cs" />
      <None Include="Assets\Resources\VERSION.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/rick/Mirror/adventure/Adventure/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
