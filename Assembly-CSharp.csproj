@@ -82,6 +82,12 @@
      <Compile Include="Assets\Game\Scripts\Modules\Base\Singleton.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\Base\SingletonPersistent.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\Base\SingletonScriptableObject.cs" />
+     <Compile Include="Assets\Game\Scripts\Modules\Dialog\Scripts\Dialog.cs" />
+     <Compile Include="Assets\Game\Scripts\Modules\Dialog\Scripts\DialogManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Modules\Dialog\Scripts\DialogSentence.cs" />
+     <Compile Include="Assets\Game\Scripts\Modules\Dialog\Test\DialogTester.cs" />
+     <Compile Include="Assets\Game\Scripts\Modules\Dialog\Test\DialogTesterCallback.cs" />
+     <Compile Include="Assets\Game\Scripts\Modules\Dialog\Test\GameCharacter.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\FiniteStateMachine\FiniteStateMachine.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\FiniteStateMachine\Interface\IState.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\FiniteStateMachine\Test\FSMTester.cs" />
