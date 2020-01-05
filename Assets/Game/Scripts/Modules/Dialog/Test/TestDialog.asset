@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: TestDialog
   m_EditorClassIdentifier: 
   id: ASDF
+  recieveXP: 25
+  revieceItems:
+  - {fileID: 196544, guid: b3995e830d5ca0d4bb23dffd485406c4, type: 3}
+  - {fileID: 100000, guid: e29b98b940d49c74498765461919210e, type: 3}
   onCallback:
     m_PersistentCalls:
       m_Calls:
