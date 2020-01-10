@@ -106,16 +106,6 @@
      <Compile Include="Assets\Game\Scripts\Modules\Notifications\Scripts\NotificationManager.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\Notifications\Scripts\NotificationMessage.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\Notifications\Test\NotificationDemo.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\QuestSystem\Scripts\QButtonScript.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\QuestSystem\Scripts\QLogButtonScript.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\QuestSystem\Scripts\Quest.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\QuestSystem\Scripts\QuestManager.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\QuestSystem\Scripts\QuestObject.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\QuestSystem\Scripts\QuestObjective.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\QuestSystem\Scripts\QuestUIManager.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\QuestSystem\Scripts\SaveLoad.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\QuestSystem\Test\CameraFollow.cs" />
-     <Compile Include="Assets\Game\Scripts\Modules\QuestSystem\Test\Character\Character.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\SaveGame\Scripts\GameData.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\SaveGame\Scripts\PlayerData.cs" />
      <Compile Include="Assets\Game\Scripts\Modules\SaveGame\Scripts\SaveSystem.cs" />
