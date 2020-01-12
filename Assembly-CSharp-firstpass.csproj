@@ -54,6 +54,7 @@
      <Compile Include="Assets\Plugins\Shipyard\Scripts\Extensions\Test\Scripts\ColorExtensionsTester.cs" />
      <Compile Include="Assets\Plugins\Shipyard\Scripts\Extensions\Test\Scripts\GameObjectExtensionsTester.cs" />
      <Compile Include="Assets\Plugins\Shipyard\Scripts\Extensions\Test\Scripts\ListExtensionsTester.cs" />
+     <Compile Include="Assets\Plugins\Shipyard\Scripts\Helpers\_LEGACY\MyScript.cs" />
      <Compile Include="Assets\Plugins\Shipyard\Scripts\Helpers\Scripts\AttachUIToGameObject.cs" />
      <Compile Include="Assets\Plugins\Shipyard\Scripts\Helpers\Scripts\ConditionalFieldAttribute.cs" />
      <Compile Include="Assets\Plugins\Shipyard\Scripts\Helpers\Scripts\Connection.cs" />

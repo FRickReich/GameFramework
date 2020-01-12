@@ -44,8 +44,7 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
-  <ItemGroup>     <Compile Include="Assets\_LEGACY\MyScript.cs" />
-     <Compile Include="Assets\Game\Scripts\Manager\ConnectionManager.cs" />
+  <ItemGroup>     <Compile Include="Assets\Game\Scripts\Manager\ConnectionManager.cs" />
      <Compile Include="Assets\Game\Scripts\Manager\GameManager.cs" />
      <Compile Include="Assets\Game\Scripts\Manager\InputManager.cs" />
      <Compile Include="Assets\Game\Scripts\Manager\MainMenuManager.cs" />
