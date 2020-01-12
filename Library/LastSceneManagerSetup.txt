@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Game/Scripts/Modules/QuestSystem/Test/Demo.unity
+- path: Assets/Game/Scenes/Welcome.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
