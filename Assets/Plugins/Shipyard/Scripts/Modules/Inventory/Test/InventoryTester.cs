@@ -16,13 +16,13 @@ namespace Game.Test
 		public void Start()
 		{
 			//AddItem("Diamond Sword");
-			AddItem(0);
-			AddItem(1);
-			AddItem(2);
+			AddItem("0");
+			AddItem("1");
+			AddItem("2");
 			//RemoveItem(1);
 		}
 
-		public void AddItem(int id)
+		public void AddItem(string id)
 		{
 			Item itemToAdd = itemDatabase.GetItem(id);
 			inventoryItems.Add(itemToAdd);
@@ -30,24 +30,24 @@ namespace Game.Test
 			Debug.Log($"Added item: {itemToAdd.title}");
 		}
 
-		public void AddItem(string itemName)
-		{
-			Item itemToAdd = itemDatabase.GetItem(itemName);
-			inventoryItems.Add(itemToAdd);
+		// public void AddItem(string id, string itemName)
+		// {
+		// 	Item itemToAdd = itemDatabase.GetItem(itemName);
+		// 	inventoryItems.Add(itemToAdd);
 
-			Debug.Log($"Added item: {itemToAdd.title}");
-		}
+		// 	Debug.Log($"Added item: {itemToAdd.title}");
+		// }
 
-		public Item FindItem(int id)
+		public Item FindItem(string id)
 		{
 			return inventoryItems.Find(item => item.id == id);
 		}
 
-		public void RemoveItem(int id)
+		public void RemoveItem(string id)
 		{
 			Item itemToRemove = FindItem(id);
 
-			if(itemToRemove != null)
+			if (itemToRemove != null)
 			{
 				inventoryItems.Remove(itemToRemove);
 				inventoryUI.RemoveItem(itemToRemove);

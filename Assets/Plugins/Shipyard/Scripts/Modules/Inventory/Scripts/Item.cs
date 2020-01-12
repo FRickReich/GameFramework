@@ -4,9 +4,10 @@ using UnityEngine;
 
 namespace Game.Inventory
 {
+	[CreateAssetMenu(menuName = "Game/Item")]
 	public class Item : ScriptableObject
 	{
-		public int id;
+		public string id;
 		public string title;
 		public string identifier;
 		public string description;
@@ -14,7 +15,7 @@ namespace Game.Inventory
 
 		public Dictionary<string, int> stats = new Dictionary<string, int>();
 
-		public Item(int id, string title, string description, string identifier, Dictionary<string, int> stats)
+		public Item(string id, string title, string description, string identifier, Dictionary<string, int> stats)
 		{
 			this.id = id;
 			this.title = title;
@@ -30,5 +31,5 @@ namespace Game.Inventory
 			this.description = item.description;
 			this.icon = Resources.Load<Sprite>($"Sprites/Items/{item.identifier}");
 		}
-    }
+	}
 }

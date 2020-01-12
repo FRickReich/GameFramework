@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Game/Scenes/MainMenu.unity
+    path: Assets/Plugins/Shipyard/Scenes/MainMenu.unity
     guid: 3c1555d2b293a4f5aa327943cbed02bd
   - enabled: 1
-    path: Assets/Game/Scenes/Game.unity
+    path: Assets/Plugins/Shipyard/Scenes/Game.unity
     guid: d4b49e99f340848b0a85dd42dd85fbab
   m_configObjects: {}
