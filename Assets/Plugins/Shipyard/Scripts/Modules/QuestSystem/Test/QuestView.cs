@@ -4,9 +4,9 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 
-using Game.QuestModule;
+using Shipyard.QuestModule;
 
-namespace Game.Test
+namespace Shipyard.Test
 {
 	public class QuestView : MonoBehaviour
 	{

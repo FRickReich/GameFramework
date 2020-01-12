@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Game.Inventory
+namespace Shipyard.Inventory
 {
 	public class InventoryUI : MonoBehaviour
 	{
@@ -13,7 +13,8 @@ namespace Game.Inventory
 
 		public int numberOfSlots = 16;
 
-		private void Awake() {
+		private void Awake()
+		{
 			for (int i = 0; i < numberOfSlots; i++)
 			{
 				GameObject instance = Instantiate(slotPrefab);
@@ -31,12 +32,12 @@ namespace Game.Inventory
 
 		public void AddNewItem(Item item)
 		{
-			UpdateSlot(uIItems.FindIndex(i => i.item == null), item);;
+			UpdateSlot(uIItems.FindIndex(i => i.item == null), item); ;
 		}
 
 		public void RemoveItem(Item item)
 		{
-			UpdateSlot(uIItems.FindIndex(i => i.item == item), null);;
+			UpdateSlot(uIItems.FindIndex(i => i.item == item), null); ;
 		}
 	}
 }

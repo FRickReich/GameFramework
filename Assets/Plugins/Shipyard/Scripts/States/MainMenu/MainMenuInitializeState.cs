@@ -3,10 +3,10 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-using Game.Helper;
-using Game.SaveGame;
+using Shipyard.Helper;
+using Shipyard.SaveGame;
 
-namespace Game.FSM.State
+namespace Shipyard.FSM.State
 {
 	public class MainMenuInitializeState : IState
 	{
@@ -41,7 +41,7 @@ namespace Game.FSM.State
 						mainMenuManager
 					));
 				}
-				else if(!mainMenuManager.gamestart)
+				else if (!mainMenuManager.gamestart)
 				{
 					this.stateManager.ChangeState(new MainMenuPanelMenuState(
 						stateManager,

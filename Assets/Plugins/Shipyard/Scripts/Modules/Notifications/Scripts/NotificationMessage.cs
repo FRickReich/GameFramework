@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-namespace Game.Notifications
+namespace Shipyard.Notifications
 {
 	public class NotificationMessage : MonoBehaviour
 	{
@@ -15,7 +15,8 @@ namespace Game.Notifications
 		public TMP_Text messageText;
 		public Animator animator;
 
-		void Awake() {
+		void Awake()
+		{
 			animator = GetComponent<Animator>();
 		}
 
@@ -26,17 +27,17 @@ namespace Game.Notifications
 
 			ShowNotification();
 
-			if(isAutoDestructed)
+			if (isAutoDestructed)
 			{
 				StartCoroutine(WaitForDestruction());
 			}
 		}
 
-		 private IEnumerator WaitForDestruction()
-    	{
-        	yield return new WaitForSeconds(waitTime);
-        	HideNotification();
-    	}
+		private IEnumerator WaitForDestruction()
+		{
+			yield return new WaitForSeconds(waitTime);
+			HideNotification();
+		}
 
 
 		public void ShowNotification()

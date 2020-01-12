@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using Game.UI;
+using Shipyard.UI;
 
-namespace Game.Demo
+namespace Shipyard.Demo
 {
 	public class LoadingScreenTester : MonoBehaviour
 	{

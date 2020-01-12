@@ -18,8 +18,8 @@ MonoBehaviour:
   questStatus: 1
   nextQuest: {fileID: 0}
   objectives:
-  - {fileID: 11400000, guid: 9b4b7e62ab6d744b6b7e7130d17cac71, type: 2}
-  - {fileID: 11400000, guid: 55a62c115cdd443dbb61da96080931a6, type: 2}
+  - {fileID: 11400000, guid: 9ba57df2427a545b48b01d779a04d80c, type: 2}
+  - {fileID: 11400000, guid: c11172a7af2aa4dddb23ee3dd9dc4b93, type: 2}
   description: 
   summary: 
   rewardExperience: 0

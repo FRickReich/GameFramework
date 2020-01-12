@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-namespace Game.Extension
+namespace Shipyard.Extension
 {
 	public static class MathExtensions
 	{

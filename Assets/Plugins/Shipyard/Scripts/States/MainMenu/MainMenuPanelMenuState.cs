@@ -3,9 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine;
 
-namespace Game.FSM.State
+namespace Shipyard.FSM.State
 {
 	public class MainMenuPanelMenuState : IState
 	{
@@ -73,7 +72,8 @@ namespace Game.FSM.State
 			{
 				mainMenuManager.ContinueGame();
 			});
-			mainMenuManager.menuOptionsGameButton.onClick.AddListener(() => {
+			mainMenuManager.menuOptionsGameButton.onClick.AddListener(() =>
+			{
 				OpenOptionsMenu();
 			});
 		}

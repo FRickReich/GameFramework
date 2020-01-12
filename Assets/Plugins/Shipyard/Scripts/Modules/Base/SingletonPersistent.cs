@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Game.Base
+namespace Shipyard.Base
 {
 	public class SingletonPersistent<T> : MonoBehaviour where T : Component
 	{
@@ -10,10 +10,10 @@ namespace Game.Base
 		{
 			get
 			{
-				if(instance == null)
+				if (instance == null)
 				{
 					instance = FindObjectOfType<T>();
-					if(instance == null)
+					if (instance == null)
 					{
 						var obj = new GameObject();
 						instance = obj.AddComponent<T>();
@@ -28,7 +28,7 @@ namespace Game.Base
 		{
 			DontDestroyOnLoad(this);
 
-			if(instance == null)
+			if (instance == null)
 			{
 				instance = this as T;
 			}

@@ -1,13 +1,12 @@
 using UnityEngine;
-using System.Collections;
 
-namespace Game.Extension
+namespace Shipyard.Extension
 {
 	public static class ColorExtensions
 	{
-		public static Color WithAlpha (this Color color, float alpha)
+		public static Color WithAlpha(this Color color, float alpha)
 		{
-			return new Color (color.r, color.g, color.b, alpha);
+			return new Color(color.r, color.g, color.b, alpha);
 		}
 	}
 }

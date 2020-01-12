@@ -5,7 +5,7 @@ using UnityEngine;
 using System.Collections.ObjectModel;
 using System.Reflection;
 
-namespace Game.Helper
+namespace Shipyard.Helper
 {
 	/// <summary>
 	/// Conditionally Show/Hide field in inspector, based on some other field value
@@ -30,7 +30,7 @@ namespace Game.Helper
 }
 
 #if UNITY_EDITOR
-namespace Game.Helper
+namespace Shipyard.Helper
 {
 	using UnityEditor;
 

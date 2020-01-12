@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
-using Game.Extension;
+using Shipyard.Extension;
 
-namespace Game.Test
+namespace Shipyard.Test
 {
 	public class GameObjectExtensionsTester : MonoBehaviour
 	{

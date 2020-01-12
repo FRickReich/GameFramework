@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using UnityEngine;
 
-namespace Game.Base
+namespace Shipyard.Base
 {
 	public class SingletonScriptableObject<T> : ScriptableObject where T : ScriptableObject
 	{
@@ -11,7 +11,7 @@ namespace Game.Base
 		{
 			get
 			{
-				if(_instance == null)
+				if (_instance == null)
 				{
 					_instance = Resources.FindObjectsOfTypeAll<T>().FirstOrDefault();
 				}

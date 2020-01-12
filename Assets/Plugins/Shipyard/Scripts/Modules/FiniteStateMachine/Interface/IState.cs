@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Game.FSM
+namespace Shipyard.FSM
 {
 	public interface IState
 	{

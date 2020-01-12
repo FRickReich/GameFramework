@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
-using Game.Internationalization;
+using Shipyard.Internationalization;
 
-namespace Game.Helper
+namespace Shipyard.Helper
 {
 	public class PulsingTextTest : MonoBehaviour
 	{
@@ -13,7 +11,8 @@ namespace Game.Helper
 		public Languages language;
 		public TMP_Text testString;
 
-		private void Start() {
+		private void Start()
+		{
 			converter = new i18n(language, "helpers");
 		}
 

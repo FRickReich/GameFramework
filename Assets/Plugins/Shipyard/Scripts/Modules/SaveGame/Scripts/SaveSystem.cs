@@ -2,7 +2,7 @@ using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace Game.SaveGame
+namespace Shipyard.SaveGame
 {
 	public static class SaveSystem
 	{
@@ -33,7 +33,7 @@ namespace Game.SaveGame
 		{
 			string path = Application.persistentDataPath + $"/saveGame_{ block }.sgm";
 
-			if(File.Exists(path))
+			if (File.Exists(path))
 			{
 				BinaryFormatter formatter = new BinaryFormatter();
 

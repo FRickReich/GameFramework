@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Game.FSM.State
+namespace Shipyard.FSM.State
 {
 	public class GamePauseState : IState
 	{
@@ -15,7 +15,7 @@ namespace Game.FSM.State
 
 		public void Execute(float delta)
 		{
-			if(!GameManager.Instance.gamePauseMode)
+			if (!GameManager.Instance.gamePauseMode)
 			{
 
 			}

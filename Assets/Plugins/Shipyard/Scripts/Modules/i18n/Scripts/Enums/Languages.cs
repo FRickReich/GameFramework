@@ -1,4 +1,4 @@
-namespace Game.Internationalization
+namespace Shipyard.Internationalization
 {
 	public enum Languages
 	{

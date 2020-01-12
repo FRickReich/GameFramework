@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-using Game.Internationalization;
+using Shipyard.Internationalization;
 
-namespace Game.UI
+namespace Shipyard.UI
 {
 	public class LoadingScreen : MonoBehaviour
 	{

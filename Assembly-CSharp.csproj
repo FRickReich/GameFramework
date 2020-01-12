@@ -45,7 +45,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>     <Compile Include="Assets\_LEGACY\MyScript.cs" />
-     <None Include="Assets\VERSION.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/rick/Mirror/adventure/Adventure/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

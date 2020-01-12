@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Game.FSM.State
+namespace Shipyard.FSM.State
 {
 	public class MainMenuPanelWelcomeState : IState
 	{
@@ -28,12 +28,12 @@ namespace Game.FSM.State
 		{
 			timer += delta;
 
-			if(timer > timerMax)
+			if (timer > timerMax)
 			{
 				timer = 0;
 			}
 
-			if(Input.GetKeyDown(KeyCode.Return))
+			if (Input.GetKeyDown(KeyCode.Return))
 			{
 				this.stateManager.ChangeState(new MainMenuAutoSaveMessageState(
 					stateManager,

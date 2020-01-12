@@ -1,8 +1,8 @@
 using UnityEngine;
 
-using Game.Base;
+using Shipyard.Base;
 
-namespace Game.Notifications
+namespace Shipyard.Notifications
 {
 	public class NotificationManager : SingletonPersistent<NotificationManager>
 

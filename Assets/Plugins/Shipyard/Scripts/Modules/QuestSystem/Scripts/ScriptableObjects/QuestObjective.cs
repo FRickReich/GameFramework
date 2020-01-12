@@ -1,10 +1,10 @@
 using System.Collections;
 using UnityEngine;
 
-using Game.Helper;
-using Game.Inventory;
+using Shipyard.Helper;
+using Shipyard.Inventory;
 
-namespace Game.QuestModule
+namespace Shipyard.QuestModule
 {
 	public class QuestObjective : ScriptableObject
 	{

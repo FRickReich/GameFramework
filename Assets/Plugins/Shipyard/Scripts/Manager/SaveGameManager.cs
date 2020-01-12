@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using Game.Base;
-using Game.SaveGame;
-using Game.FSM;
-using Game.FSM.State;
+using Shipyard.Base;
+using Shipyard.SaveGame;
+using Shipyard.FSM;
+using Shipyard.FSM.State;
 
-namespace Game
+namespace Shipyard
 {
 	public class SaveGameManager : SingletonPersistent<SaveGameManager>
 	{

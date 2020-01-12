@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using Game.Base;
+using Shipyard.Base;
 
-namespace Game
+namespace Shipyard
 {
 	public class InputManager : SingletonPersistent<InputManager>
 	{
@@ -22,7 +22,7 @@ namespace Game
 				GameRunningInput();
 			}
 
-            if (GameManager.Instance.gameMode == "GamePauseState")
+			if (GameManager.Instance.gameMode == "GamePauseState")
 			{
 				GamePauseInput();
 			}
@@ -40,7 +40,7 @@ namespace Game
 		void GamePauseInput()
 		{
 			Debug.Log("Pause");
-            if (Input.GetKeyDown(KeyCode.Escape))
+			if (Input.GetKeyDown(KeyCode.Escape))
 			{
 				GameManager.Instance.gamePauseMode = false;
 			}

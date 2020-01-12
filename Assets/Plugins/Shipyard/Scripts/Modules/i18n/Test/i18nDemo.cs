@@ -2,9 +2,9 @@
 using UnityEngine.UI;
 using TMPro;
 
-using Game.Internationalization;
+using Shipyard.Internationalization;
 
-namespace Game.Test
+namespace Shipyard.Test
 {
 	public class i18nDemo : MonoBehaviour
 	{

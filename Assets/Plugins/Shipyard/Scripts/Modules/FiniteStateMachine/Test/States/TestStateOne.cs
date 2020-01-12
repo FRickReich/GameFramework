@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-using Game.Helper;
+using Shipyard.Helper;
 
-namespace Game.FSM.State
+namespace Shipyard.FSM.State
 {
 	public class TestStateOne : IState
 	{
@@ -25,10 +25,10 @@ namespace Game.FSM.State
 			gameModeText = "Game";
 		}
 
-		public void LateExecute() {}
+		public void LateExecute() { }
 
-		public void OnEnter() {}
+		public void OnEnter() { }
 
-		public void Exit() {}
+		public void Exit() { }
 	}
 }

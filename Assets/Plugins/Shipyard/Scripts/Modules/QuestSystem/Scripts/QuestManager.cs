@@ -5,13 +5,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-using Game.Base;
-using Game.Helper;
-using Game.FSM;
-using Game.FSM.State;
-using Game.Inventory;
+using Shipyard.Base;
+using Shipyard.Helper;
+using Shipyard.FSM;
+using Shipyard.FSM.State;
+using Shipyard.Inventory;
 
-namespace Game.QuestModule
+namespace Shipyard.QuestModule
 {
 	public class QuestManager : SingletonPersistent<QuestManager>
 	{

@@ -1,12 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
-using Game.Helper;
-using Game.Internationalization;
+using Shipyard.Helper;
+using Shipyard.Internationalization;
 
-namespace Game.Helper
+namespace Shipyard.Helper
 {
 	public class SaveLoadIndicatorTest : MonoBehaviour
 	{
@@ -24,8 +22,8 @@ namespace Game.Helper
 		// Update is called once per frame
 		void Update()
 		{
-            fadeInButtonText.text = converter.GetMessage("test.helpers.saveLoadIndicator.fadeInButton");
-            fadeOutButtonText.text = converter.GetMessage("test.helpers.saveLoadIndicator.fadeOutButton");
+			fadeInButtonText.text = converter.GetMessage("test.helpers.saveLoadIndicator.fadeInButton");
+			fadeOutButtonText.text = converter.GetMessage("test.helpers.saveLoadIndicator.fadeOutButton");
 
 			converter.language = language;
 		}

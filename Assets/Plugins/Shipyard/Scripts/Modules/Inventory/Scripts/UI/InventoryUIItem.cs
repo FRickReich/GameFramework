@@ -2,14 +2,15 @@
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-namespace Game.Inventory
+namespace Shipyard.Inventory
 {
 	public class InventoryUIItem : MonoBehaviour
 	{
 		public Item item;
 		private Image spriteImage;
 
-		private void Awake() {
+		private void Awake()
+		{
 			spriteImage = GetComponent<Image>();
 
 			UpdateItem(null);
@@ -19,7 +20,7 @@ namespace Game.Inventory
 		{
 			this.item = item;
 
-			if(this.item != null)
+			if (this.item != null)
 			{
 				spriteImage.color = Color.white;
 				spriteImage.sprite = this.item.icon;

@@ -1,11 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
-using Game.Internationalization;
+using Shipyard.Internationalization;
 
-namespace Game.Helper
+namespace Shipyard.Helper
 {
 	public class attachUIToGameObjectTest : MonoBehaviour
 	{

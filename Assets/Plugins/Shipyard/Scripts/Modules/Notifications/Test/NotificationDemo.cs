@@ -1,8 +1,8 @@
 using UnityEngine;
 
-using Game.Notifications;
+using Shipyard.Notifications;
 
-namespace Game.Test
+namespace Shipyard.Test
 {
 	public class NotificationDemo : MonoBehaviour
 	{

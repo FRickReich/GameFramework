@@ -6,13 +6,13 @@ using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-using Game.FSM;
-using Game.FSM.State;
-using Game.Internationalization;
-using Game.Helper;
-using Game.UI;
+using Shipyard.FSM;
+using Shipyard.FSM.State;
+using Shipyard.Internationalization;
+using Shipyard.Helper;
+using Shipyard.UI;
 
-namespace Game
+namespace Shipyard
 {
 	public class MainMenuManager : MonoBehaviour
 	{

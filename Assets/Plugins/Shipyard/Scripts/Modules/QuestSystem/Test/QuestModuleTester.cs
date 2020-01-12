@@ -7,10 +7,10 @@ using UnityEngine.UI;
 using UnityEditor;
 using TMPro;
 
-using Game.QuestModule;
-using Game.Inventory;
+using Shipyard.QuestModule;
+using Shipyard.Inventory;
 
-namespace Game.Test
+namespace Shipyard.Test
 {
 	public class QuestModuleTester : MonoBehaviour
 	{

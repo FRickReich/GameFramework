@@ -1,12 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-using Game.Helper;
+using Shipyard.Helper;
 
 public class DrawErrorTest : MonoBehaviour
 {
-    void Update()
+	void Update()
 	{
 		DrawArrow.ForDebug(transform.position, transform.forward, Color.green);
 	}

@@ -4,7 +4,7 @@ using System.Globalization;
 
 using SimpleJSON;
 
-namespace Game.Internationalization
+namespace Shipyard.Internationalization
 {
 	public class i18n
 	{

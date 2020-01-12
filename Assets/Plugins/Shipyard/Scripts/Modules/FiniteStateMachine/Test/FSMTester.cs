@@ -4,16 +4,16 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 
-using Game.FSM;
-using Game.FSM.State;
-using Game.Helper;
-using Game.Internationalization;
+using Shipyard.FSM;
+using Shipyard.FSM.State;
+using Shipyard.Helper;
+using Shipyard.Internationalization;
 
-namespace Game.Test
+namespace Shipyard.Test
 {
 	public class FSMTester : MonoBehaviour
 	{
-        private FiniteStateMachine stateManager = new FiniteStateMachine();
+		private FiniteStateMachine stateManager = new FiniteStateMachine();
 		private Timer gameTimer;
 
 		public string gameStateString;
@@ -46,7 +46,7 @@ namespace Game.Test
 		{
 			converter.language = language;
 
-            this.stateManager.ExecuteStateUpdate();
+			this.stateManager.ExecuteStateUpdate();
 
 			gameModeText.text = converter.GetMessage("test.fsm.gameModeString", gameStateString);
 			gameTimeText.text = converter.GetMessage("test.fsm.gameTimeString", converter.secondsToTime(gameTimer.elapsed));

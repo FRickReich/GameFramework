@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using System;
 
-namespace Game.Helper
+namespace Shipyard.Helper
 {
 	public class UnlockItemTime : MonoBehaviour
 	{

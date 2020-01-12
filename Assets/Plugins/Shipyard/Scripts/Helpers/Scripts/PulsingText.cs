@@ -1,38 +1,43 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class PulsingText : MonoBehaviour {
+namespace Shipyard.Helper
+{
+	public class PulsingText : MonoBehaviour
+	{
 
-	private TMP_Text pulsingText;
-	public float pulsingSpeed = 2;
+		private TMP_Text pulsingText;
+		public float pulsingSpeed = 2;
 
-	// Use this for initialization
-	void Awake () {
+		// Use this for initialization
+		void Awake()
+		{
 
-		pulsingText = GetComponent<TMP_Text>();
+			pulsingText = GetComponent<TMP_Text>();
 
-	}
-	
-	// Update is called once per frame
-	void Update () {
+		}
 
-		Color pulseRotator = new Color(
-            pulsingText.color.r,
-            pulsingText.color.g,
-            pulsingText.color.b,
-            Mathf.Sin(Time.time * pulsingSpeed)
-		);
+		// Update is called once per frame
+		void Update()
+		{
 
-		pulsingText.color = pulseRotator;
-		
+			Color pulseRotator = new Color(
+				pulsingText.color.r,
+				pulsingText.color.g,
+				pulsingText.color.b,
+				Mathf.Sin(Time.time * pulsingSpeed)
+			);
 
-		if (gameObject.GetComponentInChildren<Image>()) {
+			pulsingText.color = pulseRotator;
 
-			gameObject.GetComponentInChildren<Image>().color = pulseRotator;
 
-		}      
+			if (gameObject.GetComponentInChildren<Image>())
+			{
+
+				gameObject.GetComponentInChildren<Image>().color = pulseRotator;
+
+			}
+		}
 	}
 }

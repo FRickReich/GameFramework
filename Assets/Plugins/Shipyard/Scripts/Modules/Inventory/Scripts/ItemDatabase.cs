@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Game.Inventory
+namespace Shipyard.Inventory
 {
 	public class ItemDatabase : MonoBehaviour
 	{

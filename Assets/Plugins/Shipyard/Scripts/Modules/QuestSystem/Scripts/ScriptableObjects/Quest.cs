@@ -1,13 +1,12 @@
 ﻿using System.Collections;
 using UnityEngine;
 using System.Linq;
-using System.Collections;
 using System.Collections.Generic;
 
-using Game.Helper;
-using Game.Inventory;
+using Shipyard.Helper;
+using Shipyard.Inventory;
 
-namespace Game.QuestModule
+namespace Shipyard.QuestModule
 {
 	[CreateAssetMenu(menuName = "Game/Quest")]
 	public class Quest : ScriptableObject

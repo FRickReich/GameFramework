@@ -11,8 +11,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7902b4cda01c84c1b9fc4002d13e6cc3, type: 3}
   m_Name: Kill
-  m_EditorClassIdentifier: 
-  id: kill
+  m_EditorClassIdentifier:
+  id:
   collect: 0
   travel: 0
   kill: 1
@@ -20,8 +20,8 @@ MonoBehaviour:
   amountCollectRequested: 0
   amountCollectFulfilled: 0
   item: {fileID: 0}
-  destination: 
-  position: 
+  destination:
+  position:
   amountKillRequested: 0
   amountKillFulfilled: 0
   amountEarnRequested: 0

@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Game.Extension
+namespace Shipyard.Extension
 {
 	public static class GameObjectExtensions
 	{

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using Game.Inventory;
+using Shipyard.Inventory;
 
-namespace Game.Test
+namespace Shipyard.Test
 {
 	public class InventoryTester : MonoBehaviour
 	{

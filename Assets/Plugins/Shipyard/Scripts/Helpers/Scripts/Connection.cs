@@ -1,9 +1,6 @@
-
-using System;
-using System.IO;
 using UnityEngine;
 
-namespace Game.Helper
+namespace Shipyard.Helper
 {
 	public static class Connection
 	{

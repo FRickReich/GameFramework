@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Game.Extension
+namespace Shipyard.Extension
 {
 	public class PlayerPrefsExtensions : MonoBehaviour
 	{

@@ -1,21 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-using Game.Extension;
+using Shipyard.Extension;
 
-namespace Game.Test
+namespace Shipyard.Test
 {
 	public class ColorExtensionsTester : MonoBehaviour
 	{
-        public Color color;
+		public Color color;
 
 		// Start is called before the first frame update
 		void Start()
 		{
-            Color testColor = new Color(255,0,0,1);
+			Color testColor = new Color(255, 0, 0, 1);
 
-            color = testColor.WithAlpha(0.3f);
+			color = testColor.WithAlpha(0.3f);
 		}
 
 		// Update is called once per frame

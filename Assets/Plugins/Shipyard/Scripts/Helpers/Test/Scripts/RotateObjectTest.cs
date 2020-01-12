@@ -1,13 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 using TMPro;
 
-using Game.Helper;
-using Game.Internationalization;
+using Shipyard.Helper;
+using Shipyard.Internationalization;
 
-namespace Game.Helper
+namespace Shipyard.Helper
 {
 	public class RotateObjectTest : MonoBehaviour
 	{
@@ -28,7 +25,7 @@ namespace Game.Helper
 			converter.language = language;
 
 			resumeButtonText.text = converter.GetMessage("test.helpers.rotateObject.resumeRotationButton");
-            pauseButtonText.text = converter.GetMessage("test.helpers.rotateObject.pauseRotationButton");
+			pauseButtonText.text = converter.GetMessage("test.helpers.rotateObject.pauseRotationButton");
 		}
 	}
 }

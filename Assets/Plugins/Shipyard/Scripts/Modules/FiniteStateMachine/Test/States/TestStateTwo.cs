@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-using Game.Helper;
+using Shipyard.Helper;
 
-namespace Game.FSM.State
+namespace Shipyard.FSM.State
 {
 	public class TestStateTwo : IState
 	{
@@ -14,7 +14,7 @@ namespace Game.FSM.State
 		private Timer gameTimer;
 		private RotateObject testCube;
 
-		public TestStateTwo(FiniteStateMachine stateManager, string gameModeText, Timer gameTimer,  RotateObject testCube)
+		public TestStateTwo(FiniteStateMachine stateManager, string gameModeText, Timer gameTimer, RotateObject testCube)
 		{
 			this.stateManager = stateManager;
 			this.gameModeText = gameModeText;
@@ -29,7 +29,7 @@ namespace Game.FSM.State
 			gameModeText = "Pause";
 		}
 
-		public void LateExecute() {}
+		public void LateExecute() { }
 
 		public void OnEnter()
 		{

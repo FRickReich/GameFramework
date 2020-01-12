@@ -1,8 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-namespace Game.Helper
+namespace Shipyard.Helper
 {
 	public class DestroyByTimeExtended : MonoBehaviour
 	{

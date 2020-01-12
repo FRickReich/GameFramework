@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Game.FSM.State
+namespace Shipyard.FSM.State
 {
 	public class SaveLoadSavingState : IState
 	{

@@ -1,14 +1,13 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
-using Game.Extension;
+using Shipyard.Extension;
 
-namespace Game.Test
+namespace Shipyard.Test
 {
 	public class ListExtensionsTester : MonoBehaviour
 	{
-        public List<string> testList = new List<string>();
+		public List<string> testList = new List<string>();
 
 		public string randomItem;
 

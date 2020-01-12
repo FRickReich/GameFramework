@@ -1,7 +1,6 @@
 using UnityEngine;
-using System.Collections;
 
-namespace Game.Helper
+namespace Shipyard.Helper
 {
 	public static class DrawArrow
 	{

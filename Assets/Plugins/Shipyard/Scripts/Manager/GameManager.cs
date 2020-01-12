@@ -3,13 +3,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-using Game.Base;
-using Game.Helper;
-using Game.FSM;
-using Game.FSM.State;
-using Game.Internationalization;
+using Shipyard.Base;
+using Shipyard.Helper;
+using Shipyard.FSM;
+using Shipyard.FSM.State;
+using Shipyard.Internationalization;
 
-namespace Game
+namespace Shipyard
 {
 	public class GameManager : SingletonPersistent<GameManager>
 	{

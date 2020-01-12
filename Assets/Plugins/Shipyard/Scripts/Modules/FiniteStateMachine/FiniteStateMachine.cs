@@ -4,9 +4,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-using Game;
+using Shipyard;
 
-namespace Game.FSM
+namespace Shipyard.FSM
 {
 	public class FiniteStateMachine : MonoBehaviour
 	{
@@ -78,7 +78,7 @@ namespace Game.FSM
 
 		public String GetCurrentStateName()
 		{
- 			return currentState.GetType().Name;
+			return currentState.GetType().Name;
 		}
 	}
 }

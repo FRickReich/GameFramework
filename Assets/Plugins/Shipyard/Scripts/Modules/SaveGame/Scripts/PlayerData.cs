@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Game.SaveGame
+namespace Shipyard.SaveGame
 {
 	[System.Serializable]
 	public class PlayerData

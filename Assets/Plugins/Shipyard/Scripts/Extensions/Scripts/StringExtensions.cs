@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace Game.Extension
+namespace Shipyard.Extension
 {
 	public static class StringExtensions
 	{
