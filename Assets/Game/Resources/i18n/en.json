@@ -1,0 +1,10 @@
+{
+	"game": {
+		"menu": {
+			"welcome": {
+				"startGame": "Press RETURN to start"
+			},
+			"version": "Game Version: {val}"
+		}
+	}
+}

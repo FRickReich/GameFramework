@@ -23,8 +23,6 @@ namespace Shipyard.SaveGame
 
 			GameData data = new GameData(playerData);
 
-			Debug.Log("Saving game.");
-
 			formatter.Serialize(stream, data);
 			stream.Close();
 		}
@@ -42,13 +40,10 @@ namespace Shipyard.SaveGame
 				GameData data = formatter.Deserialize(stream) as GameData;
 				stream.Close();
 
-				Debug.Log("Loading game.");
-
 				return data;
 			}
 			else
 			{
-				Debug.LogError("Save file not found.");
 				return null;
 			}
 		}

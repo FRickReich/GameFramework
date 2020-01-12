@@ -1,0 +1,10 @@
+{
+	"game": {
+		"menu": {
+			"welcome": {
+				"startGame": "Drücke ENTER zum Starten"
+			},
+			"version": "Spielversion: {val}"
+		}
+	}
+}

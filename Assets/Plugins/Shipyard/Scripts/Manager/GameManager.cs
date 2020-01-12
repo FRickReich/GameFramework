@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using Shipyard.Base;
 using Shipyard.Helper;
 using Shipyard.FSM;
-using Shipyard.FSM.State;
+using Shipyard.FSM.Test;
 using Shipyard.Internationalization;
 
 namespace Shipyard

@@ -45,6 +45,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>     <Compile Include="Assets\_LEGACY\MyScript.cs" />
+     <Compile Include="Assets\Game\Scripts\Manager\ConnectionManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Manager\GameManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Manager\InputManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Manager\MainMenuManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Manager\SaveGameManager.cs" />
+     <Compile Include="Assets\Game\Scripts\Manager\UIManager.cs" />
+     <Compile Include="Assets\Game\Scripts\States\Game\GameChangeSceneState.cs" />
+     <Compile Include="Assets\Game\Scripts\States\Game\GameInitializeState.cs" />
+     <Compile Include="Assets\Game\Scripts\States\Game\GameShowMainMenuState.cs" />
+     <Compile Include="Assets\Game\Scripts\States\MainMenu\MainMenuWelcomeScreenState.cs" />
+     <Compile Include="Assets\Game\Scripts\SystemManager.cs" />
+     <Compile Include="Assets\Game\Scripts\UI\MainMenuPanel.cs" />
+     <Compile Include="Assets\Game\Scripts\UI\VersionString.cs" />
+     <Compile Include="Assets\Game\Scripts\UI\WelomePanel.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/rick/Mirror/adventure/Adventure/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

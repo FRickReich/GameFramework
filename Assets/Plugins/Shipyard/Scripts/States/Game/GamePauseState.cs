@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Shipyard.FSM.State
+namespace Shipyard.FSM.Test
 {
 	public class GamePauseState : IState
 	{
